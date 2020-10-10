@@ -1,0 +1,44 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 475px;
+    margin: auto;
+}
+
+.slider-container{
+    overflow: hidden;
+}
+
+.slider-track{
+    display: flex;
+    transition: .3s;
+    position: relative;
+}
+
+.slider-item{
+    height: 220px;
+}
+
+.slider-buttons {
+    position: absolute;
+    top: 15%;
+    padding: 15px;
+
+}
+
+.btn-next {margin-left: 12em;}
+
+button {
+    width: 38px;
+    height: 38px;
+    background-color: rgba(0, 0,0, .75);
+    border: none;
+    border-radius: 20%;
+    color: white;
+    font-size: 30px;
+    opacity: 80%;
+}
